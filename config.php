@@ -12,9 +12,9 @@ define('DB_SERVER', 'sql6.freemysqlhosting.net');
    define('DB_USERNAME', 'sql6451081');
    define('DB_PASSWORD', 'KCmsVvLwb2');
    define('DB_DATABASE', 'sql6451081');
-   $db = mysqli_connect(DB_SERVER,DB_USERNAME,DB_PASSWORD,DB_DATABASE);
+   $db = new mysqli(DB_SERVER,DB_USERNAME,DB_PASSWORD,DB_DATABASE);
 if (!$db) {
-    die("Connection failed: " . mysqli_connect_error());
+    die("Connection failed: " . $db->connect_error);
 }
 
 // REGISTER USER
