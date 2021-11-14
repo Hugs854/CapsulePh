@@ -1,9 +1,9 @@
 <?php
     function connection(){
-        $servername = "localhost";
-        $username = "root";
-        $password = "";
-        $dbname = "onlineshop";
+        $servername = "sql6.freemysqlhosting.net";
+        $username = "sql6451081";
+        $password = "KCmsVvLwb2";
+        $db = "sql6451081";
 
         // Create Connection
 
