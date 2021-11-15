@@ -1,7 +1,7 @@
 <?php
 session_start();
 include("../../db.php");
-include("connection.php");
+
 include($_SERVER['DOCUMENT_ROOT'].'./capsuleph/seller/server/server.php');
 $con = connection();
 $email = $_SESSION['email'];
