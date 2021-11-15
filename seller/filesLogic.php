@@ -31,7 +31,7 @@ if (isset($_POST['reg_user'])) { // if save button on the form is clicked
     }
 }
 // connect to database
-$conn = mysqli_connect('localhost', 'root', '', 'onlineshop');
+$conn = mysqli_connect('sql6.freemysqlhosting.net', 'sql6451081', 'KCmsVvLwb2', 'sql6451081');
 
 $sql = "SELECT * FROM seller_info";
 $result = mysqli_query($conn, $sql);
