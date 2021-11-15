@@ -83,8 +83,4 @@ if (isset($_SESSION["uid"])) {
 }
 	
 
-
-
-
-
 ?>
