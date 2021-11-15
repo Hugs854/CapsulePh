@@ -1,8 +1,8 @@
 <?php
 session_start();
-include("../../db.php");
 
-include($_SERVER['DOCUMENT_ROOT'].'./capsuleph/seller/server/server.php');
+include("connection.php");
+include($_SERVER['DOCUMENT_ROOT'].'/capsuleph/seller/server/server.php');
 $con = connection();
 $email = $_SESSION['email'];
 $sql = "Select * from seller_info where seller_email = '$email' ";
