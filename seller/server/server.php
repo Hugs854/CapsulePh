@@ -86,7 +86,7 @@ if (isset($_POST['reg_user'])) {
 }
 
 // connect to database
-$db = mysqli_connect('localhost', 'root', '', 'onlineshop');
+$db = mysqli_connect('sql6.freemysqlhosting.net', 'sql6451081', 'KCmsVvLwb2', 'sql6451081');
 
 $query = "SELECT * FROM seller_info";
 $result = mysqli_query($db, $query);
