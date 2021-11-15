@@ -7,7 +7,7 @@ $db = "sql6451081";
 
 
 // Create connection
-$con = mysqli_connect($servername, $username, $password,$db);
+$con = mysqli_connect($servername, $username, $password, $db);
 
 // Check connection
 if (!$con) {

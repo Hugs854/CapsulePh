@@ -1,10 +1,9 @@
 <?php
     function connection(){
-        
         $servername = "sql6.freemysqlhosting.net";
         $username = "sql6451081";
         $password = "KCmsVvLwb2";
-        $db = "sql6451081";
+        $dbname = "sql6451081";
 
         // Create Connection
 
