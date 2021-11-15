@@ -16,7 +16,7 @@ $errors = array();
 $reg_date = date("Y/m/d");
 
 // connect to the database
-$db = mysqli_connect('sql6.freemysqlhosting.net', 'sql6451081', 'KCmsVvLwb2', 'sql6451081');
+$db = mysqli_connect('sql6.freemysqlhosting.net', 'sql6451241', 'bVRimSp8yD', 'sql6451241');
 
 
 // REGISTER USER
@@ -86,7 +86,7 @@ if (isset($_POST['reg_user'])) {
 }
 
 // connect to database
-$db = mysqli_connect('sql6.freemysqlhosting.net', 'sql6451081', 'KCmsVvLwb2', 'sql6451081');
+$db = mysqli_connect('sql6.freemysqlhosting.net', 'sql6451241', 'bVRimSp8yD', 'sql6451241');
 
 $query = "SELECT * FROM seller_info";
 $result = mysqli_query($db, $query);
