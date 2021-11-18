@@ -57,7 +57,7 @@ include "topheader.php";
                     <tbody>
                       <?php 
 
-                        $result=mysqli_query($con,"select product_id,product_image, product_title, product_brand, qty, product_price from products  where  product_brand=1 or product_brand=2 or product_brand=3 ")or die ("query 1 incorrect.....");
+                        $result=mysqli_query($con,"select product_id,product_image, product_title, product_brand, qty, product_price from products  where  product_brand=1 or product_brand=2 or product_brand=3 or product_brand=4 ")or die ("query 1 incorrect.....");
 
                         while(list($product_id,$image,$product_name, $product_brand,$qty, $price)=mysqli_fetch_array($result))
                         {

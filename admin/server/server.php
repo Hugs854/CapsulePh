@@ -13,7 +13,7 @@ $errors = array();
 $reg_date = date("Y/m/d");
 
 // connect to the database
-$db = mysqli_connect('sql6.freemysqlhosting.net', 'sql6451241', 'bVRimSp8yD', 'sql6451241');
+$db = mysqli_connect('localhost', 'root', '', 'onlineshop');
 
 
 // REGISTER USER

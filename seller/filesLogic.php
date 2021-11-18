@@ -1,6 +1,6 @@
 <?php
 // connect to the database
-$db = mysqli_connect('sql6.freemysqlhosting.net', 'sql6451241', 'bVRimSp8yD', 'sql6451241');
+$conn = mysqli_connect('localhost', 'root', '', 'onlineshop');
 
 // Uploads files
 if (isset($_POST['reg_user'])) { // if save button on the form is clicked
@@ -31,7 +31,7 @@ if (isset($_POST['reg_user'])) { // if save button on the form is clicked
     }
 }
 // connect to database
-$db = mysqli_connect('sql6.freemysqlhosting.net', 'sql6451241', 'bVRimSp8yD', 'sql6451241');
+$conn = mysqli_connect('localhost', 'root', '', 'onlineshop');
 
 $sql = "SELECT * FROM seller_info";
 $result = mysqli_query($conn, $sql);

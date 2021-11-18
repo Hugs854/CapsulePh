@@ -95,6 +95,13 @@
                     </li>
 
                     <li class="nav-item ">
+                        <a class="nav-link" href="managecat.php">
+                        <i class="material-icons">class</i>
+                        <p>Manage Categories</p>
+                        </a>
+                    </li>
+
+                    <li class="nav-item ">
                         <a class="nav-link" href="add_categories.php">
                         <i class="material-icons">add</i>
                         <p>Add Categories</p>

@@ -7,10 +7,10 @@ if(isset($_POST['add_cat']))
 {
 
 $catname=$_POST['cat_title'];
-
+$cat_id=$_POST['cat_id'];
 
 		
-mysqli_query($con,"insert into categories (cat_title) values ('$catname')") or die ("query incorrect");
+mysqli_query($con,"insert into categories (cat_id, cat_title) values ('$cat_id','$catname')") or die ("query incorrect");
 
 header("location: catsuccess.php?catsuccess=1");
 
@@ -33,6 +33,13 @@ include "topheader.php";
                 
                   <div class="row">
                     
+                  <div class="col-md-12">
+                      <div class="form-group">
+                        <label for="">Category ID</label>
+                        <input type="text" id="cat_id" name="cat_id" required class="form-control">
+                      </div>
+                    </div>
+
                   <div class="col-md-12">
                       <div class="form-group">
                         <label for="">Category Name</label>
