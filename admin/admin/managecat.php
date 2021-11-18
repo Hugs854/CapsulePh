@@ -2,7 +2,7 @@
     <?php
 session_start();
 include("../../db.php");
-include($_SERVER['DOCUMENT_ROOT'].'/CAPSTONE/capsule/seller/server/server.php');
+include($_SERVER['DOCUMENT_ROOT'].'/capsule/capsuleph/seller/server/server.php');
 if(isset($_GET['action']) && $_GET['action']!="" && $_GET['action']=='delete')
 {
 $cat_id=$_GET['cat_id'];
